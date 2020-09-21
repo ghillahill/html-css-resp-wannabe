@@ -71,3 +71,42 @@ img {
 .clear {
   clear: both;
 }
+
+
+@media screen and (max-width: 420px){
+
+    body {
+        font-size: 14px;
+    }
+
+    .row {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+    }
+
+    img {
+      height: 100px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    body {
+        font-size: 14px;
+    }
+
+    .row {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+    }
+
+    img {
+      height: 60px;
+    }
+
+}
